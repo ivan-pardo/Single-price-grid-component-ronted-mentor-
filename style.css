@@ -18,26 +18,33 @@ body {
 .container {
   width: 100%;
 }
-.part-one{
+
+.part-one {
   background-color: white;
   margin: 0 auto 50px auto;
   text-align: start;
-  width: 50%;
-  padding: 45px;
+  width: 46%;
+  padding: 40px;
   border-radius: 10px;
+  box-shadow: 1px -2px 18px -2px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 1px -2px 18px -2px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 1px -2px 18px -2px rgba(0, 0, 0, 0.75);
 }
-.part-one h2{
+
+.part-one h2 {
   font-size: 1.7em;
   color: hsl(179, 62%, 43%);
   margin-bottom: 30px;
 }
-.part-one span{
+
+.part-one span {
   display: block;
   color: hsl(71, 73%, 54%);
   font-size: 1.2em;
   margin-bottom: 30px;
 }
-.part-one p{
+
+.part-one p {
   color: gray;
   font-size: 1.1em;
 }
